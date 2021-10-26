@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Karla;
+    font-weight: 400;
+}
+.h3 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: hsl(179, 62%, 43%);
+    font-size: 70px;
+}
+.p {
+    color: hsl(71, 73%, 54%);
+    font-size: 60px;
+    position: absolute;
+    top: 8%;
+    left: 3.5%;
+}
+.p1 {
+    position: absolute;
+    top: 20%;
+    left: 3.5%;
+    color: grey;
+    font-size: 60px;
+}
+/* .p2 {
+    color: grey;
+    font-size: 60px;
+    position: absolute;
+    top: 30%;
+    left: 3.5%;
+} */
+
+.sec {
+    font-size: 65px;
+    height: 40%;
+    width: 100%;
+    background-color:  hsl(179, 62%, 43%);
+    color: white;
+    padding: 20px;
+    position: absolute;
+    top: 42%;
+}
+.button {
+    position: absolute;
+    top: 63%;
+    left: 50px;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    font-size: 80px;
+    height: 180px;
+    width: 850px;
+    border-radius: 20px;
+    
+}
+.nxt {
+    position: absolute;
+    top: 81%;
+    padding: 20px;
+    font-size: 65px;
+    height: 45%;
+    width: 100%;
+    color: white;
+    background-color: hsl(179, 49%, 52%);
+}
+@media screen and (min-width:1024px) {
+    * {
+        box-sizing: border-box;
+        font-family: Karla;
+        font-weight: 400;
+    }
+    .h3 {
+        color:  hsl(179, 62%, 43%);
+        font-size: 40px;
+    }
+    .p {
+        color: hsl(71, 73%, 54%);
+        font-size: 30px;
+        position: absolute;
+        top: 20%;
+    }
+    .p1 {
+        color: grey;
+        font-size: 20px;
+        position: absolute;
+        top: 30%;
+    }
+    .p2 {
+        color: grey;
+        font-size: 20px;
+    }
+    .sec {
+        font-size: 28px;
+        height: 60%;
+        width: 50%;
+        background-color:  hsl(179, 62%, 43%);
+        color: white;
+        padding: 20px;
+        position: absolute;
+        top: 42%;
+    }
+    .nxt {
+        position: absolute;
+        top: 42%;
+        left: 47%;
+        padding: 20px;
+        font-size: 30px;
+        height: 60%;
+        width: 60%;
+        color: white;
+        background-color: hsl(179, 49%, 52%);  
+    }
+    .button {
+        border-radius: 10px;
+        position: absolute;
+        top: 57%;
+        color: white;
+        background-color: hsl(71, 73%, 54%);
+        font-size: 20px;
+        height: 65px;
+        width: 300px;
+    }
+}
+
